@@ -4,7 +4,11 @@ body {
 
 body > div > div {
     padding-left: 50px;
-    padding-right: 50px;
+    /* padding-right: 50px; */
+}
+
+span {
+
 }
 
 .section1 {
@@ -49,6 +53,8 @@ body > div > div {
 
 .section2-container {
     display: flex;
+
+    height: 100%;
 }
 
 .section2-column {
@@ -62,7 +68,7 @@ body > div > div {
 }
 
 .section3 {
-    height: 672px;
+    height: 900px;
 }
 
 .section3-container {
@@ -78,7 +84,12 @@ body > div > div {
 }
     
 .section3-column-small {
-    width: 35%;
+    /* width: 250px; */
+    padding-left: 35px;
+    padding-right: 50px;
+
+    background: #1F5764;
+    color: white;
 }
 
 .section3-section {
@@ -98,7 +109,7 @@ body > div > div {
 }
 
 .section3-title {
-    font-size: 20px;
+    font-size: 25px;
     color: #408D96;
 }
 
@@ -108,21 +119,67 @@ body > div > div {
 }
 
 .section3-text {
-    width: 450px;
+    width: 500px;
+
+    padding-bottom: 10px;   
+    
     text-align: justify;
+}
+
+.section3-text-subitem {
+    padding-left: 40px;
+    color: gray;
 }
 
 .section3-text-small {
     display: flex;
     flex-direction: column;
 
-    width: 350px;
+    min-width: 200px;
     text-align: justify;
 }
-
 
 .section4 {
     height: 1122px;
     background: yellow;
+}
+
+.section4-container {
+    display: flex;
+}
+
+.section4-box {
+    height: 500px;
+    width: 300px;
+
+    padding: 15px;
+    margin: 10px;
+    margin-left: 0px;
+
+    background: #EFEFEF;
+}
+
+.section4-box-title {
+    color: #F58A3D;
+}
+
+.section4-box-section {
+
+}
+
+.section4-box-section-title {
+
+}
+
+.section4-box-section-text {
+
+}
+
+.section4-box-section-bar {
+    
+}
+
+.section4-box-section-bar-filled {
+
 }
 
