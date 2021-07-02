@@ -10,10 +10,6 @@ span {
 
 }
 
-svg {
-    color: yellow;
-}
-
 .section1 {
     width: 100%;
     height: 250px;
@@ -139,4 +135,29 @@ svg {
 
     min-width: 200px;
     text-align: justify;
+}
+
+.section3-competence-container {
+    padding-bottom: 5px;
+}
+
+.section3-competence-title {
+    margin-bottom: 5px;
+    border-bottom: 1px solid;
+}
+
+.section3-competence {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.white-star {
+    color: white;
+}
+
+.star-line {
+
+    font-size: 10px;
 }
